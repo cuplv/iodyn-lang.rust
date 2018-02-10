@@ -7,16 +7,6 @@ pub mod bitype;
 pub mod prims;
 pub mod eval;
 
-// Target language (Typed Adapton)
-// --------------------------------
-#[macro_use]
-pub mod tgt_ast;
-pub mod tgt_bitype;
-pub mod tgt_eval;
-pub mod tgt_vis;
-
-pub mod fungi_stdlib;
-
 // Translation
 // ------------------
 // pub mod translate;
