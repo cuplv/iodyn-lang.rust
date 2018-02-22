@@ -1,8 +1,17 @@
 # IODyn: A functional language for implicitly-incremental programs with dynamic input and output collections [![Travis](https://api.travis-ci.org/cuplv/iodyn-lang.rust.svg?branch=master)](https://travis-ci.org/cuplv/iodyn-lang.rust)
 
-## IODyn is an ML-like language with collections
+## IODyn programs are ML programs
 
-IODyn is a functional language, in the ML family of languages (SML, OCaml, Elm, etc.).  As with other languages in this family, IODyn consists of a typed core calculus, with functions and algebraic data types.  Further, we enrich this core calculus with a collections library over sequences, sets, finite maps and graphs (in progress).  Finally, we give well-typed, well-annotated programs in this language an implicitly-incremental semantics, via translation to Fungi, our low-level core calculus for functional programs that name their own cached dependency graphs.
+IODyn is a functional language, in the ML family of languages (SML, OCaml, Elm, etc.).  
+As with other MLs, IODyn consists of a typed core calculus, with (higher-order) functions and persistent algebraic data types.  
+
+## IODyn programs transform collections
+
+IODyn programs in this core calculus operate over a collections library of sequences, sets, finite maps and graphs (in progress).
+
+## IODyn programs implicitly compute incrementally
+
+We give well-typed, well-annotated IODyn programs an implicitly-incremental semantics, via translation to [Fungi](https://github.com/Adapton/fungi-lang.rust), our low-level core calculus for functional programs that name their own cached dependency graphs.
 
 ### (Status:)
 
